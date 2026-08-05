@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#070707">
+  <meta name="description" content="Rezervuj si 60-minútový pánsky strih ku Kotraskovi v Big Head House Barbershop v Ilave.">
+  <meta property="og:title" content="KOTRASKO — rezervácia strihu v Ilave">
+  <meta property="og:description" content="Vyber si haircut, termín a rezervuj si svoj ďalší look.">
+  <meta property="og:image" content="/portfolio/02-textured-modern.webp">
+  <title>KOTRASKO | Rezervácia strihu v Big Head House</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header" id="siteHeader">
+    <a class="wordmark" href="#top" aria-label="Kotrasko domov">KOTRASKO</a>
+    <nav class="desktop-nav" aria-label="Hlavná navigácia">
+      <a href="#top">Domov</a>
+      <a href="#lookbook">Lookbook</a>
+      <a href="#experience">Zážitok</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+    <button class="btn btn-gold header-book" data-open-booking>
+      Rezervovať termín
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="hero-label">PRECISION CUTS · ILAVA</p>
+        <h1>KOTRASKO</h1>
+        <p class="hero-lead">Book your next look at<br><strong>Big Head House, Ilava.</strong></p>
+        <p class="hero-body">Vyber si haircut, termín a rezervuj si 60-minútový strih v rozhraní, ktoré pôsobí rovnako fresh ako výsledok.</p>
+        <div class="hero-actions">
+          <button class="btn btn-gold btn-lg" data-open-booking>
+            Rezervovať termín
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <a class="text-action" href="#lookbook">
+            <span class="play-ring"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 7 8 5-8 5z"/></svg></span>
+            Pozrieť prácu
+          </a>
+        </div>
+        <div class="location-line">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <span><strong>Big Head House Barbershop</strong><small>Ilava</small></span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Ukážka Kotraskovej práce">
+        <div class="hero-halo"></div>
+        <img src="/portfolio/02-textured-modern.webp" alt="Textúrovaný pánsky strih s precíznym fade" width="960" height="1200">
+        <div class="hero-edge"></div>
+      </div>
+
+      <aside class="service-card reveal" aria-label="Hlavná služba">
+        <div class="service-topline"><span>NAJOBĽÚBENEJŠIE</span><span aria-hidden="true">★</span></div>
+        <h2>Pánsky strih</h2>
+        <div class="service-meta"><span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60 min</span><strong>10 €</strong></div>
+        <p>Klasický aj moderný strih na mieru s dôrazom na detail.</p>
+        <button class="btn btn-outline" data-open-booking>Vybrať službu <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </aside>
+    </section>
+
+    <section class="trust-strip" aria-label="Základné informácie">
+      <div><span class="trust-icon">✂</span><strong>Precíznosť</strong><small>v každom detaile</small></div>
+      <div><span class="trust-icon">60</span><strong>60 minút</strong><small>vyhradených pre teba</small></div>
+      <div><span class="trust-icon">€</span><strong>10 €</strong><small>bez skrytých poplatkov</small></div>
+      <div><span class="trust-icon">S</span><strong>Stripe</strong><small>bezpečná online platba</small></div>
+    </section>
+
+    <section class="lookbook section-shell" id="lookbook">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-kicker">VYBER SI SVOJ ŠTÝL</p>
+          <h2>Každý look má svoj charakter.</h2>
+        </div>
+        <button class="text-action gold" data-open-booking>Rezervovať podľa haircutu <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+      <div class="lookbook-rail" id="lookbookRail" aria-label="Kotraskove strihy"></div>
+    </section>
+
+    <section class="experience section-shell" id="experience">
+      <div class="experience-media reveal">
+        <img src="/portfolio/06-messy-natural.webp" alt="Moderný taper fade zozadu" width="960" height="1200" loading="lazy">
+        <div class="experience-number">01</div>
+      </div>
+      <div class="experience-copy reveal">
+        <p class="section-kicker">BOOKING EXPERIENCE</p>
+        <h2>Nie formulár. Tvoj prvý krok k novému looku.</h2>
+        <p>Rezervácia je rozdelená do štyroch čistých krokov. Najskôr si vyberieš vibe, potom voľný termín, doplníš kontaktné údaje a na záver zaplatíš bezpečne cez Stripe.</p>
+        <ol class="experience-steps">
+          <li><span>01</span><div><strong>Vyber haircut</strong><small>Reálny strih ako referencia pre Kotraska.</small></div></li>
+          <li><span>02</span><div><strong>Zvoľ termín</strong><small>Hodinové sloty v najbližších 30 dňoch.</small></div></li>
+          <li><span>03</span><div><strong>Doplň detaily</strong><small>Minimum údajov, maximum istoty.</small></div></li>
+          <li><span>04</span><div><strong>Zaplať 10 €</strong><small>Testovací Stripe Checkout je pripravený.</small></div></li>
+        </ol>
+        <button class="btn btn-gold btn-lg" data-open-booking>Začať rezerváciu <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+    </section>
+
+    <section class="booking-showcase section-shell reveal" aria-label="Náhľad kalendára">
+      <div class="showcase-copy">
+        <p class="section-kicker">NAJBLIŽŠÍ VOĽNÝ TERMÍN</p>
+        <h2 id="nextSlotHeadline">Kontrolujeme dostupnosť…</h2>
+        <p>Termín ti systém podrží 15 minút počas platby.</p>
+      </div>
+      <div class="mini-calendar" id="miniCalendar" aria-live="polite"></div>
+      <button class="btn btn-gold btn-lg" data-open-booking>Vybrať termín <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    </section>
+
+    <section class="brand-section section-shell" id="contact">
+      <div class="brand-logo-wrap reveal"><img src="/brand/big-head-house.webp" alt="Big Head House Barbershop" width="966" height="1070"></div>
+      <div class="brand-copy reveal">
+        <p class="section-kicker">EXKLUZÍVNE V ILAVE</p>
+        <h2>KOTRASKO × BIG HEAD HOUSE</h2>
+        <p>Osobná rezervácia ku Kotraskovi priamo v Big Head House Barbershop v Ilave.</p>
+        <div class="contact-actions">
+          <a class="btn btn-outline" href="https://maps.google.com/?q=Big+Head+House+Barbershop+Ilava" target="_blank" rel="noreferrer">Otvoriť navigáciu</a>
+          <a class="btn btn-quiet" href="https://www.instagram.com/kotrasko" target="_blank" rel="noreferrer">Instagram @kotrasko</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="wordmark" href="#top">KOTRASKO</a>
+    <p>Booking Experience · Big Head House Barbershop · Ilava</p>
+    <a href="/admin" class="admin-link">Admin</a>
+  </footer>
+
+  <button class="mobile-book-bar" data-open-booking>Rezervovať termín · 10 € <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+
+  <div class="booking-overlay" id="bookingOverlay" hidden>
+    <div class="booking-backdrop" data-close-booking></div>
+    <section class="booking-dialog" role="dialog" aria-modal="true" aria-labelledby="bookingTitle">
+      <button class="icon-button booking-close" data-close-booking aria-label="Zavrieť rezerváciu">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <div class="booking-brand-panel">
+        <a class="wordmark" href="#top">KOTRASKO</a>
+        <div class="booking-brand-copy"><span>YOUR NEXT LOOK</span><strong>Začína výberom haircutu.</strong></div>
+        <div class="booking-selected-art"><img id="bookingArt" src="/portfolio/01-clean-fade.webp" alt="Vybraný strih"></div>
+        <div class="booking-brand-footer">BIG HEAD HOUSE · ILAVA</div>
+      </div>
+      <div class="booking-workspace">
+        <div class="booking-progress" id="bookingProgress" aria-label="Postup rezervácie"></div>
+        <div id="bookingScreen" class="booking-screen" aria-live="polite"></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="true"></div>
+  <noscript>Pre rezervačný systém je potrebný JavaScript.</noscript>
+</body>
+</html>

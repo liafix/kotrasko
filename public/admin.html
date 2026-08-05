@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#070707">
+  <meta name="robots" content="noindex,nofollow"><title>KOTRASKO Admin</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"><script type="module" src="/admin.js"></script>
+</head>
+<body class="admin-body">
+  <div class="grain" aria-hidden="true"></div>
+  <main class="admin-login" id="loginView">
+    <section class="login-card">
+      <a class="wordmark" href="/">KOTRASKO</a><p class="section-kicker">ADMINISTRATION</p><h1>Správa rezervácií.</h1><p>Prihlás sa heslom nastaveným v environment premennej <code>ADMIN_PASSWORD</code>.</p>
+      <form id="loginForm"><div class="field"><label for="password">Heslo</label><input id="password" type="password" autocomplete="current-password" required placeholder="••••••••"></div><button class="btn btn-gold btn-lg" type="submit">Prihlásiť sa</button><p class="login-error" id="loginError"></p></form>
+      <small>Lokálne demo heslo: <code>kotrasko-demo</code></small>
+    </section>
+  </main>
+
+  <div class="admin-shell" id="adminView" hidden>
+    <aside class="admin-sidebar">
+      <a class="wordmark" href="/">KOTRASKO</a><nav><button class="admin-nav active" data-tab="dashboard">Prehľad</button><button class="admin-nav" data-tab="bookings">Rezervácie</button><button class="admin-nav" data-tab="settings">Nastavenia</button></nav><button class="admin-nav logout" id="logoutButton">Odhlásiť sa</button>
+    </aside>
+    <main class="admin-content">
+      <header class="admin-topbar"><div><p class="section-kicker">BIG HEAD HOUSE · ILAVA</p><h1 id="adminTitle">Prehľad</h1></div><a class="btn btn-outline" href="/" target="_blank">Otvoriť web</a></header>
+      <section id="dashboardTab" class="admin-tab"></section>
+      <section id="bookingsTab" class="admin-tab" hidden></section>
+      <section id="settingsTab" class="admin-tab" hidden></section>
+    </main>
+  </div>
+  <div class="toast-stack" id="toastStack" aria-live="polite"></div>
+</body>
+</html>

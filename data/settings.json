@@ -1,0 +1,27 @@
+{
+  "brandName": "KOTRASKO",
+  "shopName": "Big Head House Barbershop",
+  "location": "Ilava",
+  "address": "Mierové námestie 93/26, 019 01 Ilava",
+  "phone": "",
+  "email": "dczwebagentsi@gmail.com",
+  "instagram": "https://www.instagram.com/kotrasko",
+  "serviceName": "Pánsky strih",
+  "priceCents": 1000,
+  "currency": "EUR",
+  "durationMinutes": 60,
+  "minimumNoticeHours": 2,
+  "bookingHorizonDays": 30,
+  "holdMinutes": 15,
+  "timezone": "Europe/Bratislava",
+  "weeklyAvailability": {
+    "1": [{"start": "09:00", "end": "19:00"}],
+    "2": [{"start": "09:00", "end": "19:00"}],
+    "3": [{"start": "09:00", "end": "19:00"}],
+    "4": [{"start": "09:00", "end": "19:00"}],
+    "5": [{"start": "09:00", "end": "19:00"}],
+    "6": [],
+    "0": []
+  },
+  "blockedSlots": []
+}

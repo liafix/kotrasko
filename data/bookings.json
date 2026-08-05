@@ -1,0 +1,23 @@
+[
+  {
+    "id": "16c57600-e65f-4bd0-b92d-e05ba725918c",
+    "publicId": "bkg__BY2pgzK4wcf",
+    "serviceName": "Pánsky strih",
+    "customerName": "Dušan Cabala",
+    "customerEmail": "dczwebagency@gmail.com",
+    "customerPhone": "+421917252874",
+    "customerNote": "test",
+    "styleId": "clean-classic",
+    "styleTitle": "Sharp & Classic",
+    "startsAt": "2026-08-06T13:00:00.000Z",
+    "endsAt": "2026-08-06T14:00:00.000Z",
+    "timezone": "Europe/Bratislava",
+    "status": "PENDING_PAYMENT",
+    "holdExpiresAt": "2026-08-05T20:42:26.145Z",
+    "amountPaidCents": 0,
+    "currency": "EUR",
+    "manageTokenHash": "f671b158dcba751f4ad05ad6d44644f85371c8d03e555ac2904c3fae37a47997",
+    "createdAt": "2026-08-05T20:27:26.147Z",
+    "updatedAt": "2026-08-05T20:27:26.148Z"
+  }
+]
